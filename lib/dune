@@ -1,3 +1,4 @@
 (library
  (name top_k)
+ (package top-k)
  (libraries bheap))
