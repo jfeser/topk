@@ -1,4 +1,5 @@
-let compare = `Shadowed_stdlib_compare
+type 'a iter = ('a -> unit) -> unit
+
 let value_exn = function Some x -> x | None -> failwith "value_exn"
 
 module type Comparable = sig
