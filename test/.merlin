@@ -1,0 +1,5 @@
+EXCLUDE_QUERY_DIR
+B ../_build/default/test/.top_k_test.objs/byte
+S .
+FLG -ppx '/home/feser/work/ocaml-workspace/topk/_build/default/.ppx/a2214fde0f9080164c234835e457c45a/ppx.exe --as-ppx --cookie '\''library-name="top_k_test"'\'''
+FLG -open Top_k_test -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs
